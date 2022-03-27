@@ -1,5 +1,5 @@
 {
-  "name": "bentobox-template",
+  "name": "bentofund",
   "scripts": {
     "build": "hardhat compile",
     "console": "hardhat console",

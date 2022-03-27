@@ -32,9 +32,9 @@ export async function toShare(
 export async function toAmount(
   bento: BentoBoxV1,
   token: ERC20,
-  amount
+  share
 ): Promise<BigNumber> {
-  return bento.toAmount(token.address, amount, false);
+  return bento.toAmount(token.address, share, false);
 }
 
 function getBentoBoxDomainSeparator(address, chainId) {
