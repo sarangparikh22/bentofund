@@ -1,5 +1,7 @@
 //@ts-nocheck
 
+//sol
+
 import { ethers, waffle } from "hardhat";
 import { Signer, BigNumber } from "ethers";
 import { expect } from "chai";
